@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">C2C</string>
+    <string name="welcome_to_crop2farm">Welcome to Crop2Farm. Click Continue to get started</string>
+    <string name="hello_ibrajix">Hello <b>Ibrajix!</b></string>
+    <string name="continuee">Continue</string>
+    <string name="not_connected">Not connected to the internet</string>
+</resources>

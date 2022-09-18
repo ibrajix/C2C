@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.C2C" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.C2C.SplashScreen" parent="Theme.SplashScreen">
+        <!--splash screen background-->
+        <item name="windowSplashScreenBackground">@color/splash_screen_background_color</item>
+
+        <!--splash screen drawable-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+
+        <!--post splash screen - displayed after splash screen-->
+        <item name="postSplashScreenTheme">@style/Theme.C2C</item>
+    </style>
+
+</resources>
